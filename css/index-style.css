@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  "Archivo", sans-serif;
+    max-width: 100%;
+}
+
+body{
+    background-color: #1C1A1A;
+}
+
+.container{
+    height: 100vh;
+}
+
+/* heder */
+
+.soon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: #7F8481;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.soon img{
+    width: 21vw;
+}
+
+.navbar-itens{
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+}
+
+.navbar-itens ul{
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    list-style: none;
+    width: 90vw;
+    background-color: #CDCDCD;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.navbar-itens ul li{
+    padding: 30px;
+}
+
+.navbar-itens ul li a{
+    text-decoration: none;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.3em;
+    color: white;
+}
+
+.navbar-itens ul li a:hover{
+    height: 100%;
+    padding: 10px;
+    background-color: #717070;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+.navbar-itens ul li a:not(:hover){
+    transition: 1s;
+}
+
+/* home */
+
+.home{
+    display: grid;
+    width: 100vw;
+    grid-template-columns:4fr 2fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 6vh;
+}
+
+.image-home img{
+    width: 93%;
+    box-shadow: 5px 5px 0px  0px #717070;
+}
+
+.text-home{
+    display: grid;
+    gap: 10vh;
+}
+
+.text-home h2{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+hr{
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 6vh;
+    color: white;
+}
+
+/* plans */
+
+.plans{
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+}
+
+.plans h2{
+    margin: 0 auto;
+    font-family: "Archivo Black", sans-serif;
+    margin-top: 4vh;
+    color: white;
+    font-size: 3em;
+}
+
+.plans-streaming{
+    margin-top: 5vh;
+    gap: 10vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.plan-option{
+    width: 17vw;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.title-plan{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: #717070;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.title-plan p{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.7em;
+    
+}
+
+.text-plan{
+    display: grid;
+    justify-items: center;
+    color: white; 
+    background-color: #252525; 
+    padding-bottom: 4vh; 
+}
+
+.text-plan div p{
+    padding: 3px;
+    text-align: center;
+    font-size: 1.04em;
+}
+
+.text-plan h4{
+    text-align: center;
+    padding: 15px;
+    background-color: #D9D9D9;
+    width: 80%;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 3vh;
+    color: #1C1A1A;
+    font-weight: 300;
+}
+
+.button-plan{
+    background-color: #252525;
+    border-radius: 0px 0px 40px 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.button-plan button{
+    width: 13vw;
+    height: 8vh;
+    border-radius: 40px;
+    background-color: #7F8481;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.2em;
+    color: white;
+}
+
+.button-plan button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+    color: #1C1A1A;
+}
+
+.button-plan button:not(:hover){
+    transition: 1s;
+}
+
+/* Compatibility */
+
+.compatibility{
+    width: 100vw;
+}
+
+.compatibility h2{
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    margin-top: 4vh;
+    color: white;
+    font-size: 3em;
+}
+
+.available-compatibilities{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+}
+
+.available-compatibilities h3{
+    color: white;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.available-compatibilities p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
