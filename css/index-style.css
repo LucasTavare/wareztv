@@ -14,7 +14,7 @@ body{
     background-color: #1C1A1A;
 }
 
-.container{
+.container-my{
     height: 100vh;
 }
 
@@ -33,13 +33,13 @@ body{
     width: 21vw;
 }
 
-.navbar-itens{
+.navbar-itens-my{
     width: 100vw;
     display: grid;
     justify-items: center;
 }
 
-.navbar-itens ul{
+.navbar-itens-my ul{
     display: flex;
     gap: 10vw;
     align-items: center;
@@ -51,18 +51,18 @@ body{
     border-radius: 0px 0px 30px 30px;
 }
 
-.navbar-itens ul li{
+.navbar-itens-my ul li{
     padding: 30px;
 }
 
-.navbar-itens ul li a{
+.navbar-itens-my ul li a{
     text-decoration: none;
     font-family: "Archivo Black", sans-serif;
     font-size: 1.3em;
     color: white;
 }
 
-.navbar-itens ul li a:hover{
+.navbar-itens-my ul li a:hover{
     height: 100%;
     padding: 10px;
     background-color: #717070;
@@ -70,7 +70,7 @@ body{
     transition: 1s;
 }
 
-.navbar-itens ul li a:not(:hover){
+.navbar-itens-my ul li a:not(:hover){
     transition: 1s;
 }
 
@@ -238,4 +238,116 @@ hr{
     color: white;
     text-align: center;
     font-size: 1.3em;
+}
+
+/* about-app */
+
+.about-app{
+    width: 100vw;
+}
+
+.about-app h3{
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    margin-top: 4vh;
+    color: white;
+    font-size: 3em;
+}
+
+.curiosities{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    margin-top: 4vh;
+}
+
+.curiosities div{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    gap: 2vh;
+}
+
+.curiosities div p{
+    text-align: center;
+    color: white;
+    line-height: 4vh;
+    font-size: 1.4em;
+}
+
+
+.carousel-item img{
+    width: 15vw;
+}
+
+.international-channels{
+    display: grid;
+    width: 100vw;
+    justify-items: center;
+}
+
+.program-styles{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    margin-top: 6vh;
+}
+
+.program-styles p{
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 2vh;
+    font-size: 1.3em;
+}
+
+.doubt{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.doubt h3{
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    margin-top: 4vh;
+    color: white;
+    font-size: 3em;
+}
+
+.resolve-doubt{
+    display: grid;
+    grid-template-columns: 6fr  4fr;
+    align-items: center;
+    gap: 5vh;
+    margin-top: 5vh;
+}
+
+.resolve-doubt h3{
+    font-size: 2.8em;
+}
+
+.resolve-doubt p{
+    color: white;
+    font-weight: 200;
+    font-size: 1.4em;
+}
+
+.resolve-doubt div button{
+    background-color: #717070;
+    padding: 5vh;
+    border-radius: 30px;
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+    font-size: 1.3em;
+}
+
+.h4-doubt{
+    font-family: "Archivo Black", sans-serif;
+    color: white;
+    font-size: 2.4em;
+    margin-top: 5vh;
 }
