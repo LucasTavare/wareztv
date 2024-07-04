@@ -155,6 +155,10 @@
     footer p,footer button{
         display: none;
     }
+
+    #mobile-whatsapp-icon {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 750px){
